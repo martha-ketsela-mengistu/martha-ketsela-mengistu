@@ -1,122 +1,60 @@
 # 👋 Hi there! I'm Martha
 
-Welcome to my GitHub! I'm a data-driven developer and analyst passionate about solving real-world problems using data engineering, machine learning, and full-stack tools. Here's a quick overview of my featured projects and technical capabilities.
+**Agentic AI Engineer** — I design and build agentic pipelines, evaluation frameworks, and data platforms that make AI work in production.
 
 ---
 
-## 🚀 Featured Projects
+## What I build
 
-### ✅ Simple Todo App (React + Docker)
-A simple and lightweight Todo web application with full CRUD functionality.
-
-- 🛠 Built with React
-- 🐳 Dockerized for easy deployment
-- 🔁 GitHub Actions CI/CD pipeline
-- ✅ Unit tests included
-- 📦 Available on Docker Hub
+- **Multi-agent systems** — LangGraph pipelines with specialised LLM judges, self-correcting query engines, and hierarchical reasoning architectures
+- **Evaluation frameworks** — benchmark datasets, LoRA-tuned adapters, and Sentinel-pattern harnesses for measuring agent quality
+- **Data platforms** — ELT pipelines (dbt + Dagster), analytical APIs (FastAPI), and observability stacks (Elastic Stack + Grafana)
 
 ---
 
-### 📊 Customer Experience Analytics for Fintech Apps
-Analyzes Google Play Store reviews for Ethiopian banks (CBE, BOA, Dashen Bank) to uncover user sentiment and improvement areas.
+## Agentic Systems — 10 Academy TRP
 
-- 🔍 Sentiment & theme analysis
-- 🧹 Data cleaning & normalization
-- 📅 Time-based trends
-- 📈 Insights to improve app retention & satisfaction
-
----
-
-### 📰 Predicting Price Moves with News Sentiment
-Combines NLP sentiment analysis and technical indicators to forecast stock price movement.
-
-- 🗞 Financial news analysis
-- 📉 RSI & MACD signal integration
-- 📊 Statistical correlation modeling
+| Project | What it does | Stack |
+|---|---|---|
+| [automation-auditor](https://github.com/martha-ketsela-mengistu/brownfield-cartographer)| Multi-agent code evaluator with 3 LLM judges (dialectical reasoning) | LangGraph · Ollama API · Python |
+| [document-intelligence-refinery](https://github.com/martha-ketsela-mengistu/document-intelligence-refinery) | Agentic pipeline: unstructured docs → queryable knowledge | Vision Models · Semantic Chunking · FastAPI |
+| [oracle-forge-data-agent](https://github.com/martha-ketsela-mengistu/oracle-forge-data-agent) | Multi-DB analytics agent — UC Berkeley DataAgentBench | PostgreSQL · MongoDB · DuckDB · LangGraph |
+| [conversion-engine](https://github.com/martha-ketsela-mengistu/conversion-engine) | Automated lead discovery, qualification & booking | Crunchbase · Email/SMS/Calendar APIs |
+| [sales-agent-evaluation-bench](https://github.com/martha-ketsela-mengistu/sales-agent-evaluation-bench) | 200–300 task benchmark + LoRA adapter on HuggingFace | HuggingFace · LoRA · Multi-LLM Synthesis |
+| [knowledge-gap-formulation](https://github.com/martha-ketsela-mengistu/knowledge-gap-formulation) | 5 blog posts + 5 tweet threads on agent internals | Embedding geometry · LoRA mechanics · Tool-use |
 
 ---
 
-### 💼 AlphaCare Insurance Solutions – Risk & Pricing Analysis
-A data science project for optimizing car insurance premiums using historical claims data.
+## Other Notable Work
 
-- 🔍 Exploratory data analysis (EDA)
-- 🧪 A/B hypothesis testing
-- 🔄 Predictive modeling with ML
-- 📂 Data Version Control (DVC) integration
-
----
-
-### 🛒 EthioMart: Amharic NER for Telegram E-Commerce
-Developed a Named Entity Recognition system for Amharic-language e-commerce data from Telegram.
-
-- 📥 Scrapes messages & images from Telegram channels
-- 🧽 Text normalization and tokenization
-- 🤖 Fine-tuned XLM-Roberta & mBERT for NER
-- 📊 Vendor performance analytics
-
----
-
-### 🤖 AI-Powered Complaint Analysis Tool (CreditTrust Financial)
-RAG-powered LLM chatbot for analyzing unstructured complaints across financial products.
-
-- 🔎 FAISS semantic search
-- 🧠 Llama2 response synthesis
-- 💬 Gradio UI for internal teams
-
----
-
-### 💳 Credit Risk Probability Model (Bati Bank)
-Credit scoring model for BNPL services using transactional and behavioral metrics.
-
-- 🧮 RFM-based feature engineering
-- 🌲 Random Forest with high accuracy
-- ⚙️ MLOps: FastAPI endpoint, MLflow versioning
-- 🚀 CI/CD with GitHub Actions
-
----
-
-### 🏥 Ethiopian Medical Business Data Platform
-End-to-end data pipeline for analyzing medical product trends from Telegram.
-
-- 🧲 Data scraping with Telethon
-- 🏗 Star schema transformation via dbt
-- 🧠 YOLOv8 for image detection
-- 🖥 FastAPI + Dagster for orchestration
-
----
-
-### 🛡️ Fraud Detection System
-Robust fraud detection in e-commerce and credit card transactions.
-
-- 🧪 Class imbalance handling
-- 🔍 Feature engineering for transaction patterns
-- 🧠 ML models (LogReg, XGBoost) + SHAP for explainability
-- 📊 Evaluation with domain-specific metrics
+| Project | What it does | Stack |
+|---|---|---|
+| [Credit Risk Model](https://github.com/martha-ketsela-mengistu/credit-risk-probability-model-week5) | RFM-based proxy target → RF (ROC-AUC 0.999) + FastAPI endpoint | MLflow · FastAPI · GitHub Actions |
+| [Ethiopian Medical Platform](https://github.com/martha-ketsela-mengistu/shipping-data-product-week7) | Full ELT platform: Telegram → star schema → dbt → YOLOv8 → API | dbt · Dagster · PostgreSQL · YOLOv8 |
+| [Fraud Detection](https://github.com/martha-ketsela-mengistu/shipping-data-product-week7) | XGBoost + SHAP explainability on e-commerce + credit card data | XGBoost · SHAP · Scikit-learn |
+| [Intelligent Complaint Analysis](https://github.com/martha-ketsela-mengistu/intelligent-complaint-analysis-week6) | Retrieval-Augmented Generation (RAG) chatbot to analyze unstructured customer complaints | Gradio · ChromaDB · RAG |
 
 ---
 
 ## 🧰 Tech Stack
 
-| Area              | Tools & Frameworks                                      |
-|-------------------|---------------------------------------------------------|
-| **Languages**     | Python, JavaScript, SQL                                 |
-| **Frontend**      | React.js, CSS                                           |
-| **Backend**       | FastAPI, Flask                                          |
-| **Data Science**  | Pandas, Scikit-learn, XGBoost, SHAP                     |
-| **NLP/LLMs**      | Hugging Face Transformers, FAISS, RAG, Llama2           |
-| **Containerization** | Docker, Docker Compose                             |
-| **CI/CD**         | GitHub Actions, MLflow, DVC                             |
-| **Databases**     | PostgreSQL, SQLite                                      |
-| **Orchestration** | Dagster                                                 |
-| **Deployment**    | Docker Hub, Vercel, Gradio                              |
-| **Others**        | YOLOv8, dbt, Telethon                                   |
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat&logo=langchain&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat&logo=gitlab&logoColor=white)
+![Elastic](https://img.shields.io/badge/Elastic_Stack-005571?style=flat&logo=elastic&logoColor=white)
 
 ---
 
 ## 📫 Contact Me
 
 - 📧 marthaket30@gmail.com
-- 💼 www.linkedin.com/in/martha-ketsela-mengistu-b77383219
+- 💼 www.linkedin.com/in/martha-ketsela-mengistu
 
 ---
 
