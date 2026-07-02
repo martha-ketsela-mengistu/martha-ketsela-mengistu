@@ -16,7 +16,7 @@
 
 | Project | What it does | Stack |
 |---|---|---|
-| [automation-auditor](https://github.com/martha-ketsela-mengistu/brownfield-cartographer)| Multi-agent code evaluator with 3 LLM judges (dialectical reasoning) | LangGraph · Ollama API · Python |
+| [automation-auditor](https://github.com/martha-ketsela-mengistu/automation-auditor)| Multi-agent code evaluator with 3 LLM judges (dialectical reasoning) | LangGraph · Ollama API · Python |
 | [document-intelligence-refinery](https://github.com/martha-ketsela-mengistu/document-intelligence-refinery) | Agentic pipeline: unstructured docs → queryable knowledge | Vision Models · Semantic Chunking · FastAPI |
 | [oracle-forge-data-agent](https://github.com/martha-ketsela-mengistu/oracle-forge-data-agent) | Multi-DB analytics agent — UC Berkeley DataAgentBench | PostgreSQL · MongoDB · DuckDB · LangGraph |
 | [conversion-engine](https://github.com/martha-ketsela-mengistu/conversion-engine) | Automated lead discovery, qualification & booking | Crunchbase · Email/SMS/Calendar APIs |
